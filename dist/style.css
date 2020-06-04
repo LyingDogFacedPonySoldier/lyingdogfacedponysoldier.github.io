@@ -1,0 +1,155 @@
+main {
+  margin: auto;
+  width: 600px
+}
+.containercontainer {
+  position: fixed;
+  width: 600px
+
+}
+
+i {
+  font-family: Merriweather;
+  font-size: 15px;
+  font-weight: bold
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: grey;
+  height: 50px;
+  color: white;
+  font-family: Manrope
+ 
+  
+}
+div1 {
+  margin: 20px
+}
+#bio {
+  display: flex;
+    flex-direction: row;
+  padding-top: 60px
+}
+  
+ 
+img {
+    width: 300px;
+  height: 300px
+}
+div2 {
+  font-family: Josefin Sans;
+  padding-top: 10px;
+  padding-left: 10px;
+  text-align: left;
+  width: 300px
+}
+#qa {
+  display: flex;
+  flex-direction: row;
+  
+}
+blockquote {
+  font-family: Abril Fatface;
+  color: white;
+  background: gray;
+  height: 250px;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-left: 0px;
+  width: 350px;
+  
+  }
+#Rule::before {
+  content: '”' ;
+  font-family: Abril Fatface;
+  display: block;
+  position: relative;
+  top: -70px;
+  text-align: right;
+  padding-right: 0px;
+  font-size: 80px;
+  transform: rotate(180deg);
+  }
+.Ruling {
+  position: relative;
+  bottom: 80px
+}
+
+#achievements {
+  width: 300px;
+ font-family: Josefin Sans;
+  padding-top: 30px
+}
+#exp {
+  display: flex;
+  flex-direction: row;
+  
+}
+#faith {
+  width: 350px;
+  height: 320px;
+  
+}
+#faith::before {
+  content: '”';
+  display: block;
+  position: relative;
+  transform: rotate(180deg);
+  font-size: 100px;
+  color: white;
+  bottom: 85px;
+  right: 130px
+}
+.faith {
+  position: relative;
+  bottom: 130px;
+  font-size: 60px
+}
+#experience {
+  width: 300px;
+  font-family: Josefin Sans
+}
+#train {
+  display: flex;
+  flex-direction: row
+}
+#left {
+  position: relative;
+  height: 630px
+  
+}
+#left::before {
+  content: '”';
+  display: block;
+  position: absolute;
+  transform: rotate(180deg);
+  left:0px;
+  font-size: 100px;
+  top: -70px
+}
+.learner {
+  font-size: 60px
+}
+#training {
+  width: 300px
+}
+blockquote:hover {
+  width: 400px;
+  margin: 0
+}
+.introduction {
+ position: absolute;
+  left: 450px;
+  top: 250px;
+  font-family: Abril Fatface;
+  font-size: 30px
+  }
+a{
+  font-style: unset;
+  font-size: 40px
+}
